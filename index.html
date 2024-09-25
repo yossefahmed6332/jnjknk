@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>اختبار النتيجة</title>
+    <link href="/css/app.c3a05d55.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- مكان عرض درجة الاختبار والنسبة -->
+        <h1>نتيجة الاختبار</h1>
+        <p id="score">درجة الاختبار: </p>
+        <p id="percentage">النسبة المئوية: </p>
+    </div>
+
+    <script>
+        // تعيين الدرجة والنسبة المئوية
+        var score = 45;
+        var percentage = 90;
+
+        // عرض النتيجة في HTML
+        document.getElementById("score").innerText = "درجة الاختبار: " + score;
+        document.getElementById("percentage").innerText = "النسبة المئوية: " + percentage + "%";
+    </script>
+
+    <script src="/js/chunk-vendors.20e7c398.js"></script>
+    <script src="/js/app.cf423f6d.js"></script>
+</body>
+</html>
